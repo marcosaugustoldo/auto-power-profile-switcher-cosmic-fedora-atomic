@@ -64,8 +64,6 @@ watch powerprofilesctl
 
 The asterisk (`*`) should automatically toggle between profiles according to the power state.
 
----
-
 ## Credits and Tools
 
 This tutorial utilizes and integrates the following third-party technologies:
@@ -75,13 +73,7 @@ This tutorial utilizes and integrates the following third-party technologies:
 * **[power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon):** A **Freedesktop.org** project that provides a D-Bus interface for modifying hardware power characteristics.
 * **[systemd/udev](https://systemd.io/):** The Linux device manager, essential for detecting hardware events.
 
----
-
 ## Implementation Notes
 
 * **Why not use TLP?** COSMIC is designed to communicate natively with the `power-profiles-daemon`. Using TLP may lead to UI conflicts and erratic CPU scaling behavior.
 * **Persistence:** On Fedora Atomic, the `/etc` directory is persistent, ensuring that `udev` rules survive system version upgrades.
-
----
-
-Would you like me to help you write a **Contribution Guide (CONTRIBUTING.md)** or a **Code of Conduct** for this repository?
