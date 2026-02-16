@@ -1,4 +1,4 @@
-![][https://i.ibb.co/dsvrXgb1/Gemini-Generated-Image-a8cyn9a8cyn9a8cy.png]
+![](https://i.ibb.co/dsvrXgb1/Gemini-Generated-Image-a8cyn9a8cyn9a8cy.png)
 
 # Auto Power Profile Switcher for COSMIC DE on Fedora Atomic
 
